@@ -6,6 +6,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building..'
+                echo 'check auto pool...'
             }
         }
         stage('Test') {
