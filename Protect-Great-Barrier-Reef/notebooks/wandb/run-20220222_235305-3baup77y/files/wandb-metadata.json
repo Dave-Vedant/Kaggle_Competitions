@@ -1,0 +1,24 @@
+{
+    "os": "Linux-5.13.0-30-generic-x86_64-with-glibc2.17",
+    "python": "3.8.12",
+    "heartbeatAt": "2022-02-23T04:53:10.955717",
+    "startedAt": "2022-02-23T04:53:05.450846",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "-f",
+        "/home/dave117/.local/share/jupyter/runtime/kernel-e5c2ac60-b6c1-4fc1-9f5d-eb8a666b7ad2.json"
+    ],
+    "state": "running",
+    "program": "notebooks/great-barrier-reef-yolov5-jvsc-bc4ec8fd-6620-4824-8550-4a553d91bf84.ipynb",
+    "root": "/home/dave117/MLOps/projects/Kaggle_Competitions",
+    "git": {
+        "remote": "https://github.com/vedantdave77/Kaggle_Competitions",
+        "commit": "fd920a099288bd110bdce1aa245c3b7058eeae09"
+    },
+    "email": "vedantdave77@gmail.com",
+    "host": "Orca",
+    "username": "dave117",
+    "executable": "/home/dave117/miniconda3/envs/mlenv/bin/python"
+}
