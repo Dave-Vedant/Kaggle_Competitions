@@ -1,0 +1,42 @@
+{
+    "os": "Linux-5.13.0-30-generic-x86_64-with-glibc2.17",
+    "python": "3.8.12",
+    "heartbeatAt": "2022-02-26T01:25:46.599071",
+    "startedAt": "2022-02-26T01:25:42.099287",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "--img",
+        "3000",
+        "--batch",
+        "4",
+        "--epochs",
+        "7",
+        "--optimizer",
+        "Adam",
+        "--data",
+        "/home/dave117/MLOps/projects/Kaggle_Competitions/Protect-Great-Barrier-Reef/Data/processed/gbr.yaml",
+        "--hyp",
+        "/home/dave117/MLOps/projects/Kaggle_Competitions/Protect-Great-Barrier-Reef/Data/processed/hyp.yaml",
+        "--weights",
+        "yolov5s6.pt",
+        "--project",
+        "great-barrier-reef",
+        "--name",
+        "yolov5s6-dim3000-fold1-1645836577478506938",
+        "--exist-ok"
+    ],
+    "state": "running",
+    "program": "/home/dave117/MLOps/projects/Kaggle_Competitions/Protect-Great-Barrier-Reef/Data/processed/yolov5/train.py",
+    "codePath": "Protect-Great-Barrier-Reef/Data/processed/yolov5/train.py",
+    "git": {
+        "remote": "https://github.com/vedantdave77/Kaggle_Competitions",
+        "commit": "9c4bd9b31c4754de8d0ffdf1e31ab02d9ce5e67e"
+    },
+    "email": "vedantdave77@gmail.com",
+    "root": "/home/dave117/MLOps/projects/Kaggle_Competitions",
+    "host": "Orca",
+    "username": "dave117",
+    "executable": "/home/dave117/miniconda3/envs/mlenv/bin/python3"
+}
