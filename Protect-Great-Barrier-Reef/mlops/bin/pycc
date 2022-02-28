@@ -1,0 +1,3 @@
+#!/home/dave117/MLOps/projects/Kaggle_Competitions/Protect-Great-Barrier-Reef/mlops/bin/python3
+from numba.pycc import main
+main()
