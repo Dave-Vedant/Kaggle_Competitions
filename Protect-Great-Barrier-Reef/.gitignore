@@ -68,6 +68,10 @@ instance/
 # Scrapy stuff:
 .scrapy
 
+
+# secret directory
+.secret
+
 # Sphinx documentation
 docs/_build/
 
