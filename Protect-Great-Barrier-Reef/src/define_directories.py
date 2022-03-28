@@ -5,9 +5,8 @@ import shutil
 import numpy as np
 import pandas as pd
 
-
 from data.data_processing import train_df, valid_df
-from Ipython.display import display
+# from Ipython.display import display
 
 BASE_DIR = '/home/dave117/MLOps/projects/Kaggle_Competitions/Protect-Great-Barrier-Reef'       
 ROOT_DIR = f'{BASE_DIR}/Data/raw'
@@ -46,5 +45,3 @@ f = open(os.path.join(main_dir, 'gbr.yaml'), 'r')
 print('\nyaml')
 print(f.read())
 
-
-hyp_file =  f'{BASE_DIR}/Data/processed/hyp.yaml'
