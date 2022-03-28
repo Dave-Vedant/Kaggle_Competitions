@@ -19,7 +19,18 @@ os.environ['KAGGLE_USERNAME'] = KAGGLE_USERNAME # username from the json file
 os.environ['KAGGLE_KEY'] = KAGGLE_KEY # key from the json file (generate new key everytime from account setting)
 
 # download data
-os.system("kaggle competitions download -c tensorflow-great-barrier-reef")
+os.system("mkdir Papa")
+os.system("mkdir Papa/external")
+os.system("kaggle competitions download -c tensorflow-great-barrier-reef -p Papa/external")
 
-# extract the data
-os.system("unzip tensorflow-great-barrier-reef")
+print('data(*.zip) downloaded successfully, move to unzip stage')
+
+# extract the datasys
+os.system("mkdir Papa")
+os.system ("mkdir Papa/raw")
+os.system("mkdir Papa/interim")
+os.system("mkdir Papa/processed")
+
+
+os.system("unzip tensorflow-great-barrier-reef -d Papa/raw")
+print('unzip completed')

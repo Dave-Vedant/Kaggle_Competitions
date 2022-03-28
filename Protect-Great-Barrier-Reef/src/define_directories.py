@@ -5,10 +5,13 @@ import shutil
 import numpy as np
 import pandas as pd
 
-from data.data_processing import train_df, valid_df
+# from data.data_processing import train_df, valid_df
 # from Ipython.display import display
 
-BASE_DIR = '/home/dave117/MLOps/projects/Kaggle_Competitions/Protect-Great-Barrier-Reef'       
+BASE_DIR = '/'    
+print(BASE_DIR)   
+
+
 ROOT_DIR = f'{BASE_DIR}/Data/raw'
 IMAGE_DIR = f'{BASE_DIR}/Data/interim/images'
 LABEL_DIR = f'{BASE_DIR}/Data/interim/labels'

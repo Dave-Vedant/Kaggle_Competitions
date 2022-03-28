@@ -5,13 +5,13 @@ FROM python:3.8.10
 WORKDIR /protect_gbr
 
 # copy the dependencies file to the working directory
-COPY requirements.txt .
+COPY requirements.txt requirements.txt
 
 # install dependencies
 RUN pip install -r requirements.txt
 
 # copy the content of the local whole directory to the working directory
-COPY / .
+COPY src/ src/
 
 # command to run on container start
-# CMD [ "python3", "./server.py" ]
+CMD [ "python3", "run.py" ]
